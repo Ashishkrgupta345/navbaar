@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(169, 169, 169);
+        
+
+}
+button {
+    width: 80px;
+    background-color: black;
+    color: aliceblue;
+    margin: 30px;
+    padding: 10px;
+    height: 40px;
+    align-items: center;
+    /* padding-left:5px; */
+    margin-left: 10px;
+}
+
+.searchbox input {
+    padding: 5px;
+    height: 40px;
+    /* margin:8px; */
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-left: 60px;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background: rgb(255, 129, 255);
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1500px;
+    justify-content: center;
+    background-color: rgb(169,169,169);
+}
+
+.menu {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu ul {
+    display: flex;
+
+}
+
+.menu ul li {
+    list-style: none;
+    padding: 80px;
+    font-size: 20px;
+}
+.part1{
+    background: rgb(255,255,255);
+    width: 100%;
+    flex: 4;
+padding:10px;
+margin-top:10px;
+/* margin-right:10px; */
+margin-bottom:10px;
+
+}
+.part2{
+    
+    flex:1;
+    background-color:rgb(255, 129, 255);
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top:10px;
+
+    
+}
+.container1{
+    display: flex;
+    }
+
+.related{
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.ul-list{
+    text-decoration: center;
+    list-style-position: inside;
+        text-decoration: underline;
+        padding-left: 40px;
+    
+}
+a{
+    color:blue;
+    
+
+}
+.heading{
+    text-align: center;
+    font-family: 'Lobster';
+        font-size: 30spx;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .subsection{
+        font-family:roboto;
+            font-size: 25px;
+            margin-bottom:20px;
+            margin-top: 20px;
+        
+    }
+    .another-subsection{
+            margin-bottom:20px;
+            margin-top: 20px;
+    }
+    
+        .footer {
+            width: 100%;
+            background-color:rgb(255,255,255);
+            /* text-align: center; */
+            position: fixed;
+            padding: 20px;
+        }
+        .para1{
+            font-family: 'Roboto';
+                font-size: 15px;
+        }
+        .para2{
+            font-family: 'Roboto';
+                font-size: 15px;
+        }
+        .para3{
+            font-family: 'Roboto';
+                font-size: 15px;
+        }
+        .para4{
+            font-family: 'Roboto';
+                font-size: 15px;
+        }
